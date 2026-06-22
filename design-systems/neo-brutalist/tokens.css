@@ -1,0 +1,63 @@
+/* neo-brutalist — 原色 + 太罫 + ハードシャドウ / License: CC0-1.0 */
+:root {
+  /* color */
+  --color-primary: #ffd400;
+  --color-secondary: #2563ff;
+  --color-accent: #ff5a3c;
+  --color-bg: #fdfdf6;
+  --color-surface: #ffffff;
+  --color-ink: #0a0a0a;
+  --color-ink-mid: #444444;
+  --color-line: #0a0a0a;
+  --color-success: #15a34a;
+  --color-warning: #d97706;
+  --color-danger: #e11d2e;
+
+  /* typography */
+  --font-heading: "Archivo", "Anton", "Hiragino Kaku Gothic ProN", sans-serif;
+  --font-body: "Space Grotesk", "Inter", "Hiragino Kaku Gothic ProN", sans-serif;
+  --font-mono: "Space Mono", "SFMono-Regular", monospace;
+  --font-size-xs: 13px;
+  --font-size-sm: 15px;
+  --font-size-base: 17px;
+  --font-size-lg: 20px;
+  --font-size-xl: 26px;
+  --font-size-2xl: 36px;
+  --font-size-3xl: 52px;
+  --font-size-4xl: 80px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+  --line-height-tight: 1.0;
+  --line-height-snug: 1.25;
+  --line-height-normal: 1.55;
+
+  /* spacing (4/8 base) */
+  --space-0: 0px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  /* radius (角を立たせる思想なので原則 0) */
+  --radius-none: 0px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-pill: 9999px;
+
+  /* shadow (ハードシャドウ・ぼかし無し) */
+  --shadow-sm: 2px 2px 0 0 #0a0a0a;
+  --shadow-md: 5px 5px 0 0 #0a0a0a;
+  --shadow-lg: 8px 8px 0 0 #0a0a0a;
+
+  /* border (太罫) */
+  --border-width: 3px;
+  --border-color: #0a0a0a;
+}

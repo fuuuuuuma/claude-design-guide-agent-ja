@@ -1,0 +1,57 @@
+/* soft-wellness — セージ / ベージュのやさしいウェルネス / License: CC0-1.0 */
+:root {
+  /* color */
+  --color-primary: #5f7a5b;
+  --color-secondary: #a98b6f;
+  --color-accent: #c98a76;
+  --color-bg: #f7f4ee;
+  --color-surface: #ece7dc;
+  --color-ink: #2f352c;
+  --color-ink-mid: #62695c;
+  --color-line: #dcd5c6;
+  --color-success: #4f7a4a;
+  --color-warning: #a9762a;
+  --color-danger: #b4584e;
+
+  /* typography */
+  --font-heading: "Noto Serif JP", "Zen Maru Gothic", Georgia, serif;
+  --font-body: "Noto Sans JP", "Helvetica Neue", sans-serif;
+  --font-size-xs: 13px;
+  --font-size-sm: 15px;
+  --font-size-base: 16px;
+  --font-size-lg: 19px;
+  --font-size-xl: 23px;
+  --font-size-2xl: 30px;
+  --font-size-3xl: 40px;
+  --font-size-4xl: 54px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --line-height-tight: 1.3;
+  --line-height-snug: 1.5;
+  --line-height-normal: 1.8;
+
+  /* spacing (4/8 base) */
+  --space-0: 0px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 36px;
+  --space-7: 56px;
+  --space-8: 80px;
+  --space-9: 120px;
+
+  /* radius */
+  --radius-none: 0px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 9999px;
+
+  /* shadow */
+  --shadow-sm: 0 1px 2px rgba(47, 53, 44, 0.05);
+  --shadow-md: 0 6px 16px rgba(47, 53, 44, 0.09);
+  --shadow-lg: 0 16px 38px rgba(47, 53, 44, 0.12);
+}

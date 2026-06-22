@@ -1,0 +1,58 @@
+/* luxury-premium — 黒金 / ボルドーの上質な高級感 / License: CC0-1.0 */
+:root {
+  /* color */
+  --color-primary: #b8924f;
+  --color-secondary: #7a1f33;
+  --color-accent: #caa968;
+  --color-bg: #0f0d0c;
+  --color-surface: #1b1715;
+  --color-ink: #f2ece1;
+  --color-ink-mid: #b3a896;
+  --color-line: #3a322c;
+  --color-success: #7fae6e;
+  --color-warning: #d4a445;
+  --color-danger: #c75c5c;
+
+  /* typography */
+  --font-heading: "Cormorant Garamond", "Noto Serif JP", "Times New Roman", serif;
+  --font-body: "Noto Serif JP", Georgia, serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 19px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 46px;
+  --font-size-4xl: 66px;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --line-height-tight: 1.15;
+  --line-height-snug: 1.4;
+  --line-height-normal: 1.75;
+
+  /* spacing (4/8 base) */
+  --space-0: 0px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 28px;
+  --space-6: 44px;
+  --space-7: 68px;
+  --space-8: 104px;
+  --space-9: 152px;
+
+  /* radius */
+  --radius-none: 0px;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-pill: 9999px;
+
+  /* shadow */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.45);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 20px 56px rgba(0, 0, 0, 0.65);
+}

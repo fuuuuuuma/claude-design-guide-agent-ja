@@ -1,0 +1,58 @@
+/* playful-consumer — パステル + 丸ゴシックの陽気なコンシューマー / License: CC0-1.0 */
+:root {
+  /* color */
+  --color-primary: #e8557d;
+  --color-secondary: #5bb8d4;
+  --color-accent: #f2a93b;
+  --color-bg: #fffaf4;
+  --color-surface: #ffeef2;
+  --color-ink: #3a2a33;
+  --color-ink-mid: #7a6670;
+  --color-line: #f3dbe2;
+  --color-success: #2f8f5b;
+  --color-warning: #c47713;
+  --color-danger: #d23f57;
+
+  /* typography */
+  --font-heading: "M PLUS Rounded 1c", "Quicksand", "Hiragino Maru Gothic ProN", sans-serif;
+  --font-body: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", sans-serif;
+  --font-size-xs: 13px;
+  --font-size-sm: 15px;
+  --font-size-base: 16px;
+  --font-size-lg: 19px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 44px;
+  --font-size-4xl: 60px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --line-height-tight: 1.2;
+  --line-height-snug: 1.45;
+  --line-height-normal: 1.7;
+
+  /* spacing (4/8 base) */
+  --space-0: 0px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 72px;
+  --space-9: 104px;
+
+  /* radius */
+  --radius-none: 0px;
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+  --radius-pill: 9999px;
+
+  /* shadow */
+  --shadow-sm: 0 2px 4px rgba(232, 85, 125, 0.10);
+  --shadow-md: 0 8px 20px rgba(232, 85, 125, 0.16);
+  --shadow-lg: 0 18px 44px rgba(232, 85, 125, 0.20);
+}
