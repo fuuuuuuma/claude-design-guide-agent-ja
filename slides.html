@@ -293,17 +293,17 @@
 <!-- 07 全体像（二層構造） -->
 <div class="slide">
   <div class="logo"><svg width="118" height="27" style="color:var(--brand)"><use href="#kawaru-logo"/></svg></div>
-  <div class="head-row"><span class="secno">01</span><h2>全体像＝「2つの層」で考える</h2></div>
+  <div class="head-row"><span class="secno">01</span><h2>全体像＝土台から順に作る</h2></div>
   <div class="flow">
-    <div class="step"><div class="t">① デザインシステム</div><div class="d">色・フォント・部品の“ルール集”を定義</div></div>
+    <div class="step"><div class="t">① デザインシステム</div><div class="d">色・部品の“土台”を定義／取り込み</div></div>
     <div class="arrow">→</div>
-    <div class="step"><div class="t">② プロジェクト</div><div class="d">ルールを反映して画面・資料を作る</div></div>
+    <div class="step"><div class="t">② ワイヤーフレーム</div><div class="d">画面の骨組み（構成）を作る</div></div>
     <div class="arrow">→</div>
-    <div class="step"><div class="t">③ Claude Code へ</div><div class="d">バンドルで渡して実装</div></div>
+    <div class="step"><div class="t">③ デザイン</div><div class="d">ルールに沿って仕上げる</div></div>
     <div class="arrow">→</div>
-    <div class="step"><div class="t">④ 書き出し</div><div class="d">PDF / PPT / 各ツールへ</div></div>
+    <div class="step"><div class="t">④ Code へ</div><div class="d">デスクトップアプリでハンドオフ</div></div>
   </div>
-  <p class="ghost">※ 先に「ルール（デザインシステム）」を用意 → その上にプロジェクトを積むのが基本 🔶</p>
+  <p class="ghost">※ いきなりデザインを作らず、デザインシステム→ワイヤーフレームの順で“土台”を先に作るのが推奨 🔶</p>
   <span class="kick">全体像</span><span class="sno">7</span>
 </div>
 
@@ -466,13 +466,14 @@
 <!-- 18 使い方フロー -->
 <div class="slide">
   <div class="logo"><svg width="118" height="27" style="color:var(--brand)"><use href="#kawaru-logo"/></svg></div>
-  <p class="eyebrow">むずかしくない</p><h2 class="stitle"><span class="secno">06</span>使い方の全体フロー</h2>
+  <p class="eyebrow">いきなり作らない</p><h2 class="stitle"><span class="secno">06</span>使い方＝まず土台から</h2>
   <div class="flow">
-    <div class="step"><div class="t">① 開く</div><div class="d">Pro等のプランで利用</div></div><div class="arrow">→</div>
-    <div class="step"><div class="t">② ルール作り</div><div class="d">デザインシステムを用意</div></div><div class="arrow">→</div>
-    <div class="step"><div class="t">③ 作る・整える</div><div class="d">会話＋canvasで仕上げ</div></div><div class="arrow">→</div>
-    <div class="step"><div class="t">④ 渡す／出す</div><div class="d">Code or 各ツールへ</div></div>
+    <div class="step"><div class="t">① デザインシステム</div><div class="d">色・部品の土台を先に作る</div></div><div class="arrow">→</div>
+    <div class="step"><div class="t">② ワイヤーフレーム</div><div class="d">骨組み（構成）を固める</div></div><div class="arrow">→</div>
+    <div class="step"><div class="t">③ デザイン</div><div class="d">会話＋canvasで仕上げる</div></div><div class="arrow">→</div>
+    <div class="step"><div class="t">④ ハンドオフ</div><div class="d">デスクトップアプリでCodeへ</div></div>
   </div>
+  <p class="ghost">※ Claude のデスクトップアプリで操作。土台（デザインシステム→ワイヤーフレーム）を先に作るのが推奨 🔶</p>
   <span class="kick">使い方フロー</span><span class="sno">18</span>
 </div>
 
@@ -481,9 +482,9 @@
   <div class="logo"><svg width="118" height="27" style="color:var(--brand)"><use href="#kawaru-logo"/></svg></div>
   <div class="head-row"><span class="secno">06</span><h2>こんな悩み → こう頼むだけ</h2></div>
   <ul class="map">
-    <li><span class="q">「資料を見栄えよくしたい」</span><span class="ar">→</span><span class="a">「落ち着いた印象のスライドにして」</span></li>
+    <li><span class="q">「いきなり作ると崩れる」</span><span class="ar">→</span><span class="a">先に「デザインシステムとワイヤーフレームを作って」</span></li>
     <li><span class="q">「毎回トンマナがバラつく」</span><span class="ar">→</span><span class="a">「うちのリポジトリを読み込んでルール化して」</span></li>
-    <li><span class="q">「そのまま実装に渡したい」</span><span class="ar">→</span><span class="a">「ハンドオフにまとめて」→ Code で受け取る</span></li>
+    <li><span class="q">「そのまま実装に渡したい」</span><span class="ar">→</span><span class="a">デスクトップアプリで「ハンドオフにまとめて」→ Code へ</span></li>
   </ul>
   <span class="badge" style="margin-top:16px;">あなたは“監督”。やりたいことを伝えるだけ</span>
   <span class="kick">悩み→依頼</span><span class="sno">19</span>
@@ -492,15 +493,15 @@
 <!-- 20 プロンプト -->
 <div class="slide">
   <div class="logo"><svg width="118" height="27" style="color:var(--brand)"><use href="#kawaru-logo"/></svg></div>
-  <div class="head-row"><span class="secno">06</span><h2>すぐ試せるプロンプト</h2></div>
-  <div class="prompt"><span class="cm"># そのままコピペで試せる例</span>
-<span class="c">&gt;</span> {自分のサービス}の紹介LPを1枚作って。ターゲットは{誰}、
-  トンマナは「信頼感・余白広め」。構成は ファーストビュー →
-  課題 → 特徴3つ → 事例 → 申し込み の順で。
+  <div class="head-row"><span class="secno">06</span><h2>すぐ試せるプロンプト（デスクトップアプリ）</h2></div>
+  <div class="prompt"><span class="cm"># Claudeデスクトップアプリの Claude Design で（推奨の順番）</span>
+<span class="cm"># ① まずデザインシステムを作る</span>
+<span class="c">&gt;</span> このGitHubリポジトリ（またはローカルのコード）を読み込んで、
+  色・タイポ・コンポーネントのデザインシステムを作って。
 
-<span class="cm"># もう一歩（書き出し）</span>
-<span class="c">&gt;</span> さっきのデザインを PowerPoint に書き出して。表紙の文言は
-  {タイトル}に直して、ロゴは右上に置いて。</div>
+<span class="cm"># ② ワイヤーフレーム → ③ デザイン → ④ ハンドオフ</span>
+<span class="c">&gt;</span> {サービス}のLPのワイヤーフレームを今のシステムに沿って作って。
+  → デザインに仕上げて、ハンドオフ用にまとめて（実装は Code へ）。</div>
   <p class="ghost">※ プレゼントの「プロンプト50選」に用途別の実例を収録 🎁</p>
   <span class="kick">プロンプト例</span><span class="sno">20</span>
 </div>
@@ -510,10 +511,10 @@
   <div class="logo"><svg width="118" height="27" style="color:var(--brand)"><use href="#kawaru-logo"/></svg></div>
   <div class="head-row"><span class="secno">06</span><h2>実践ステップ</h2></div>
   <ul class="steps">
-    <li><span class="n">1</span>まず小さな1枚（資料/スライド1枚）を会話で作る</li>
-    <li><span class="n">2</span>色・文字サイズ・余白を整える、canvasでドラッグ調整</li>
-    <li><span class="n">3</span>気に入った“ルール”をデザインシステムとして保存</li>
-    <li><span class="n">4</span>次から再利用し、必要なら Claude Code に渡して実装</li>
+    <li><span class="n">1</span>Claudeのデスクトップアプリで Claude Design を開く（ローカル/GitHub連携が使える）</li>
+    <li><span class="n">2</span>まずデザインシステムを作る／既存リポジトリから取り込む</li>
+    <li><span class="n">3</span>ワイヤーフレームで構成を固めてから、デザインに起こす</li>
+    <li><span class="n">4</span>canvasで整え、デスクトップアプリから Claude Code へハンドオフ</li>
   </ul>
   <span class="kick">実践ステップ</span><span class="sno">21</span>
 </div>
